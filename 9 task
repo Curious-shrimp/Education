@@ -1,0 +1,6 @@
+number= int(input("Введите 4-x значное число "))
+a = str(number // 1000)
+b = str((number // 100) % 10)
+c = str((number // 10) % 10)
+d = str(number % 10)
+print(d + c + b + a)
