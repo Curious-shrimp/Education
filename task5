@@ -1,0 +1,4 @@
+n = int(input("Введите кол-во минут"))
+hours = n // 60
+minutes = n % 60
+print(hours, "часов", minutes, "минут")
